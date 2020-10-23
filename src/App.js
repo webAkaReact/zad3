@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  // utwórz katalog components a w nim 2 komponty (funkcyjny i klasowy)
+  // zaimportuj komponenty do komponentu App (do tego komponentu)
+  // przekaz jako propsy swoje imie do komponentów
+  // odbierz propsy w tych komponentach i wyświetl je
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      Do dzieła!
     </div>
   );
 }
